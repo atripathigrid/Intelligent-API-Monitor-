@@ -1,0 +1,49 @@
+intelligent-api-monitor/
+├── .env                # Stores API keys and thresholds (MAX_TEMP_THRESHOLD) [cite: 50, 51]
+├── .gitignore          # To ignore venv/ and __pycache__/
+├── requirements.txt    # List of all packages (FastAPI, SQLAlchemy, etc.) [cite: 8, 9]
+├── server.log          # File where system logs are saved [cite: 55]
+├── app/
+│   ├── __init__.py     # Makes app a Python package
+│   ├── main.py         # FastAPI entry point and health check [cite: 62]
+│   ├── config.py       # Configuration management via pydantic-settings 
+│   ├── database.py     # SQLite engine and session setup [cite: 7, 24]
+│   ├── models.py       # SQLAlchemy ORM models (DataFeed, AnomalyAlert, etc.) [cite: 23, 24, 60]
+│   ├── schemas.py      # Pydantic models for data validation [cite: 8, 22, 65]
+│   ├── crud.py         # Logic for database Create/Read operations
+│   ├── decorators.py   # Custom @circuit_breaker and @require_api_key [cite: 32, 35, 37]
+│   ├── services/       # Logic for external API fetching (httpx) [cite: 8, 21, 64]
+│   │   ├── weather.py
+│   │   ├── finance.py
+│   │   └── geology.py
+│   └── utils/          # Background tasks and generator functions [cite: 28, 41]
+├── dashboard/
+│   └── streamlit_app.py # Multi-page Streamlit dashboard [cite: 42, 44]
+└── tests/
+    └── test_main.py    # Pytest unit tests [cite: 9, 56, 79]
+
+
+
+# Web Framework & Server
+fastapi - The core backend framework for routing and background tasks.
+uvicorn - The ASGI server used to run the FastAPI application.
+
+# Database & Validation
+sqlalchemy - The ORM (Object Relational Mapper) used for database models.
+pydantic - Used for data validation and standardizing raw JSON from APIs.
+pydantic-settings - Manages environment variables and thresholds from the .env file.
+python-dotenv - Loads environment variables from the .env file.
+
+# HTTP Client (Async)
+httpx - An asynchronous HTTP client used for concurrent network requests.
+
+# Frontend Dashboard
+streamlit - The framework used to build the 3-page monitoring dashboard.
+
+# Testing Tools
+pytest - The primary testing framework for the required unit tests.
+pytest-asyncio - Allows pytest to run the asynchronous code used in the backend.
+respx - Used for mocking external API responses (Weather, Finance, Geological).
+
+# Logging
+loguru - A library for professional-grade logging (INFO, WARNING, ERROR).
