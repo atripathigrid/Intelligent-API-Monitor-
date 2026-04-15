@@ -42,7 +42,7 @@ def health():
     return {"status": "running"}
 
 
-# Fetch and Store Data
+# Core features
 @app.get("/api/fetch-live")
 async def fetch_live(background_tasks: BackgroundTasks, db=Depends(get_db)):
     weather_data, finance_data, earthquake_data = await asyncio.gather(
@@ -76,11 +76,11 @@ async def fetch_live(background_tasks: BackgroundTasks, db=Depends(get_db)):
             magnitude=0,
             place="no data"
         )
-
+# DB Storage
     create_weather(db, weather_clean)
     create_finance(db, finance_clean)
     create_earthquake(db, earthquake_clean)
-
+#Background Tasks
     background_tasks.add_task(
         detect_anomalies,
         weather_clean,

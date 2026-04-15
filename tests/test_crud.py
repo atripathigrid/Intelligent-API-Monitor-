@@ -1,7 +1,7 @@
 from app.schemas import WeatherSchema
 from app.crud import create_weather
 
-
+#Fake DB
 class FakeDB:
     def add(self, obj):
         pass
@@ -12,7 +12,7 @@ class FakeDB:
     def refresh(self, obj):
         pass
 
-
+#test function
 def test_create_weather():
     db = FakeDB()
 
