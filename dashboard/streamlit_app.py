@@ -10,6 +10,11 @@ st.set_page_config(
 
 BASE_URL = "http://127.0.0.1:8000"
 
+# ✅ API KEY (IMPORTANT FIX)
+HEADERS = {
+    "x-api-key": "test_api_key"
+}
+
 # Custom CSS
 st.markdown(
     """
@@ -33,14 +38,6 @@ st.markdown(
         margin-bottom: 30px;
     }
 
-    .card {
-        background-color: white;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
-    }
-
     .section-title {
         font-size: 28px;
         font-weight: bold;
@@ -62,16 +59,17 @@ st.markdown(
 # Refresh button
 if st.button("🔄 Refresh Data"):
     try:
-        requests.get(f"{BASE_URL}/api/fetch-live")
+        requests.get(f"{BASE_URL}/api/fetch-live", headers=HEADERS)
         st.success("Latest data fetched successfully")
     except:
         st.error("FastAPI server is not running")
 
 try:
-    weather = requests.get(f"{BASE_URL}/api/weather").json()
-    finance = requests.get(f"{BASE_URL}/api/finance").json()
-    earthquake = requests.get(f"{BASE_URL}/api/earthquake").json()
-    anomalies = requests.get(f"{BASE_URL}/api/anomalies").json()
+    # ✅ FIX: API KEY ADDED TO ALL REQUESTS
+    weather = requests.get(f"{BASE_URL}/api/weather", headers=HEADERS).json()
+    finance = requests.get(f"{BASE_URL}/api/finance", headers=HEADERS).json()
+    earthquake = requests.get(f"{BASE_URL}/api/earthquake", headers=HEADERS).json()
+    anomalies = requests.get(f"{BASE_URL}/api/anomalies", headers=HEADERS).json()
 
     weather_df = pd.DataFrame(weather)
     finance_df = pd.DataFrame(finance)
@@ -119,7 +117,18 @@ try:
 
     if anomaly_list:
         for anomaly in anomaly_list:
-            st.warning(anomaly)
+            message = anomaly.get("message", "No message")
+
+            if "temperature" in message.lower():
+                st.error(f"🔥 {message}")
+            elif "usd" in message.lower():
+                st.warning(f"💰 {message}")
+            elif "earthquake" in message.lower():
+                st.error(f"🌍 {message}")
+            else:
+                st.warning(f"⚠ {message}")
+
+            st.divider()
     else:
         st.success("No anomalies detected")
 
@@ -149,7 +158,10 @@ try:
     # Download Section
     st.markdown('<div class="section-title">⬇ Download Data</div>', unsafe_allow_html=True)
 
-    export_response = requests.get(f"{BASE_URL}/api/export")
+    export_response = requests.get(
+        f"{BASE_URL}/api/export",
+        headers=HEADERS
+    )
 
     st.download_button(
         label="Download Exported Data",

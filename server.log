@@ -1,0 +1,419 @@
+2026-04-15T17:55:19.353681+0530 | INFO | Database tables created successfully
+2026-04-15T17:55:45.907391+0530 | INFO | Fetching weather data from DB
+2026-04-15T17:55:45.924581+0530 | INFO | Fetching finance data from DB
+2026-04-15T17:55:45.927518+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T17:55:45.929762+0530 | WARNING | Fetching anomalies (currently hardcoded)
+2026-04-15T17:55:45.981062+0530 | INFO | Export endpoint called
+2026-04-15T17:56:38.086776+0530 | INFO | Database tables created successfully
+2026-04-15T18:00:22.126335+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:00:22.144278+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:00:22.147025+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:00:22.149284+0530 | WARNING | Fetching anomalies (currently hardcoded)
+2026-04-15T18:00:22.355615+0530 | INFO | Export endpoint called
+2026-04-15T18:08:44.287288+0530 | INFO | Health endpoint called
+2026-04-15T18:08:51.372467+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:08:52.260228+0530 | INFO | Data stored successfully in database
+2026-04-15T18:08:52.260341+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:08:52.267056+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:08:52.268843+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:08:52.270560+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:08:52.271912+0530 | WARNING | Fetching anomalies (currently hardcoded)
+2026-04-15T18:08:52.312161+0530 | INFO | Export endpoint called
+2026-04-15T18:28:22.333905+0530 | INFO | Database tables created successfully
+2026-04-15T18:28:29.992912+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:28:30.009803+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:28:30.012642+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:28:30.015099+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:28:40.556261+0530 | INFO | Database tables created successfully
+2026-04-15T18:28:43.095223+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:28:43.108338+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:28:43.110929+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:28:43.113078+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:30:25.077562+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:30:27.125591+0530 | INFO | Data stored successfully in database
+2026-04-15T18:30:27.125695+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:31:00.840659+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:33:14.072117+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:33:15.174760+0530 | INFO | Data stored successfully in database
+2026-04-15T18:33:15.174860+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:33:25.489615+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:33:25.491620+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:33:25.493297+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:33:25.494810+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:33:43.752114+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:35:10.984656+0530 | INFO | Database tables created successfully
+2026-04-15T18:35:13.771433+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:35:13.787228+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:35:13.790291+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:35:13.793055+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:35:37.520795+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:35:38.471766+0530 | INFO | Data stored successfully in database
+2026-04-15T18:35:38.471867+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:35:38.478455+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:35:38.480272+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:35:38.482108+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:35:38.484260+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:38:17.644717+0530 | INFO | Database tables created successfully
+2026-04-15T18:38:24.421902+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:38:24.439636+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:38:24.442216+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:38:24.444566+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:39:07.811363+0530 | INFO | Database tables created successfully
+2026-04-15T18:39:13.309304+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:39:13.325867+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:39:13.328805+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:39:13.331306+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:40:18.360449+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:40:18.363259+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:40:18.366079+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:40:18.368767+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:42:09.309634+0530 | INFO | Database tables created successfully
+2026-04-15T18:42:16.500557+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:42:16.520525+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:42:16.524056+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:42:16.526988+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:42:16.693055+0530 | INFO | Export endpoint called
+2026-04-15T18:42:25.689803+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:42:26.460777+0530 | INFO | Data stored successfully in database
+2026-04-15T18:42:26.461009+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:42:26.469870+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:42:26.472494+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:42:26.476284+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:42:26.478825+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:42:26.528444+0530 | INFO | Export endpoint called
+2026-04-15T18:42:34.769938+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:42:35.630454+0530 | INFO | Data stored successfully in database
+2026-04-15T18:42:35.630654+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:42:37.601343+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:42:53.380360+0530 | INFO | Database tables created successfully
+2026-04-15T18:44:40.567888+0530 | INFO | Database tables created successfully
+2026-04-15T18:44:48.565698+0530 | INFO | Database tables created successfully
+2026-04-15T18:44:53.622222+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:44:53.641350+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:44:53.644725+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:44:53.647699+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:44:53.693088+0530 | INFO | Export endpoint called
+2026-04-15T18:47:15.912184+0530 | INFO | Database tables created successfully
+2026-04-15T18:47:21.496965+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:47:21.513719+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:47:21.516504+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:47:21.518828+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:47:21.560757+0530 | INFO | Export endpoint called
+2026-04-15T18:48:21.517037+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:50:55.661932+0530 | INFO | Fetching live data from external APIs
+2026-04-15T18:50:56.472187+0530 | INFO | Data stored successfully in database
+2026-04-15T18:50:56.472366+0530 | INFO | Anomaly detection task triggered
+2026-04-15T18:50:56.472981+0530 | WARNING | High temperature: 35.0 (threshold: 30.0)
+2026-04-15T18:50:56.473042+0530 | WARNING | Anomaly detected: High temperature: 35.0 (threshold: 30.0)
+2026-04-15T18:50:56.475759+0530 | INFO | Fetching weather data from DB
+2026-04-15T18:50:56.478509+0530 | INFO | Fetching finance data from DB
+2026-04-15T18:50:56.480593+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T18:50:56.482638+0530 | INFO | Fetching anomalies from database
+2026-04-15T18:50:56.531384+0530 | INFO | Export endpoint called
+2026-04-15T19:03:06.019360+0530 | INFO | Database tables created successfully
+2026-04-15T19:03:09.826499+0530 | INFO | Fetching weather data from DB
+2026-04-15T19:03:09.842449+0530 | INFO | Fetching finance data from DB
+2026-04-15T19:03:09.845378+0530 | INFO | Fetching earthquake data from DB
+2026-04-15T19:03:09.848174+0530 | INFO | Fetching anomalies from database
+2026-04-15T19:03:09.893703+0530 | INFO | Export endpoint called
+2026-04-15T19:04:15.774696+0530 | INFO | Database tables created successfully
+2026-04-16T09:40:50.580782+0530 | INFO | Database tables created successfully
+2026-04-16T09:47:42.105260+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:47:42.122334+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:47:42.125231+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:47:42.129048+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:47:42.339488+0530 | INFO | Export endpoint called
+2026-04-16T09:47:44.460073+0530 | INFO | Fetching live data from external APIs
+2026-04-16T09:47:45.328757+0530 | INFO | Data stored successfully in database
+2026-04-16T09:47:45.328938+0530 | INFO | Anomaly detection task triggered
+2026-04-16T09:47:45.329815+0530 | WARNING | High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:47:45.329929+0530 | WARNING | Anomaly detected: High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:47:45.333264+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:47:45.336332+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:47:45.339392+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:47:45.342664+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:47:45.396403+0530 | INFO | Export endpoint called
+2026-04-16T09:48:30.696496+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:48:30.699170+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:48:30.701830+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:48:30.703826+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:48:30.856584+0530 | INFO | Export endpoint called
+2026-04-16T09:48:32.826080+0530 | INFO | Fetching live data from external APIs
+2026-04-16T09:48:33.585031+0530 | INFO | Data stored successfully in database
+2026-04-16T09:48:33.585225+0530 | INFO | Anomaly detection task triggered
+2026-04-16T09:48:33.585942+0530 | WARNING | High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:48:33.586063+0530 | WARNING | Anomaly detected: High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:48:33.588696+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:48:33.592614+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:48:33.596966+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:48:33.600104+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:48:33.652070+0530 | INFO | Export endpoint called
+2026-04-16T09:48:50.073741+0530 | INFO | Database tables created successfully
+2026-04-16T09:52:18.622902+0530 | INFO | Fetching live data from external APIs
+2026-04-16T09:52:19.391215+0530 | INFO | Data stored successfully in database
+2026-04-16T09:52:19.391391+0530 | INFO | Anomaly detection task triggered
+2026-04-16T09:52:19.392106+0530 | WARNING | High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:52:19.392239+0530 | WARNING | Anomaly detected: High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:52:19.395729+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:52:19.414825+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:52:19.417657+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:52:19.420449+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:52:19.466752+0530 | INFO | Export endpoint called
+2026-04-16T09:54:29.473487+0530 | INFO | Database tables created successfully
+2026-04-16T09:54:34.261026+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:54:34.273460+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:54:34.276408+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:54:34.279162+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:54:34.320057+0530 | INFO | Export endpoint called
+2026-04-16T09:54:42.365078+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:54:42.368446+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:54:42.371336+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:54:42.374110+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:54:42.425849+0530 | INFO | Export endpoint called
+2026-04-16T09:56:45.277444+0530 | INFO | Database tables created successfully
+2026-04-16T09:56:50.337364+0530 | INFO | Fetching live data from external APIs
+2026-04-16T09:56:51.230655+0530 | INFO | Data stored successfully in database
+2026-04-16T09:56:51.230821+0530 | INFO | Anomaly detection task triggered
+2026-04-16T09:56:51.231488+0530 | WARNING | High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:56:51.231566+0530 | WARNING | Anomaly detected: High temperature: 31.8 (threshold: 30.0)
+2026-04-16T09:56:51.234717+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:56:51.250745+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:56:51.253942+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:56:51.257022+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:56:51.304489+0530 | INFO | Export endpoint called
+2026-04-16T09:58:59.783253+0530 | INFO | Database tables created successfully
+2026-04-16T09:59:05.221284+0530 | INFO | Fetching weather data from DB
+2026-04-16T09:59:05.237858+0530 | INFO | Fetching finance data from DB
+2026-04-16T09:59:05.240572+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T09:59:05.242885+0530 | INFO | Fetching anomalies from database
+2026-04-16T09:59:05.283902+0530 | INFO | Export endpoint called
+2026-04-16T10:11:55.048425+0530 | INFO | Database tables created successfully
+2026-04-16T10:11:55.067859+0530 | INFO | Fetching live data from external APIs
+2026-04-16T10:11:55.734261+0530 | INFO | Weather API data fetched successfully
+2026-04-16T10:11:55.814466+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T10:11:55.838909+0530 | INFO | Finance API data fetched successfully
+2026-04-16T10:11:55.852084+0530 | INFO | Data stored successfully in database
+2026-04-16T10:11:55.852221+0530 | INFO | Anomaly detection task triggered
+2026-04-16T10:11:55.852670+0530 | WARNING | High temperature: 32.5 (threshold: 30.0)
+2026-04-16T10:11:55.852809+0530 | WARNING | Anomaly detected: High temperature: 32.5 (threshold: 30.0)
+2026-04-16T10:11:55.881478+0530 | INFO | Fetching live data from external APIs
+2026-04-16T10:11:56.441277+0530 | INFO | Weather API data fetched successfully
+2026-04-16T10:11:56.468775+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T10:11:56.603986+0530 | INFO | Finance API data fetched successfully
+2026-04-16T10:11:56.614922+0530 | INFO | Data stored successfully in database
+2026-04-16T10:11:56.615102+0530 | INFO | Anomaly detection task triggered
+2026-04-16T10:11:56.615661+0530 | WARNING | High temperature: 32.5 (threshold: 30.0)
+2026-04-16T10:11:56.615795+0530 | WARNING | Anomaly detected: High temperature: 32.5 (threshold: 30.0)
+2026-04-16T10:11:56.620285+0530 | ERROR | API failed: API failure
+2026-04-16T10:11:56.620432+0530 | ERROR | API failed: API failure
+2026-04-16T10:11:56.620510+0530 | ERROR | API failed: API failure
+2026-04-16T10:11:56.620577+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:11:56.622977+0530 | INFO | Health endpoint called
+2026-04-16T10:11:56.625593+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:11:56.659687+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:11:56.662353+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:11:56.664768+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:11:56.666328+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:11:56.667252+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:11:56.667992+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:17:49.294213+0530 | INFO | Database tables created successfully
+2026-04-16T10:17:49.307341+0530 | INFO | Fetching live data from external APIs
+2026-04-16T10:17:50.042134+0530 | INFO | Weather API data fetched successfully
+2026-04-16T10:17:50.046601+0530 | INFO | Finance API data fetched successfully
+2026-04-16T10:17:50.164314+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T10:17:50.177590+0530 | INFO | Data stored successfully in database
+2026-04-16T10:17:50.177759+0530 | INFO | Anomaly detection task triggered
+2026-04-16T10:17:50.178255+0530 | WARNING | High temperature: 33.2 (threshold: 30.0)
+2026-04-16T10:17:50.178394+0530 | WARNING | Anomaly detected: High temperature: 33.2 (threshold: 30.0)
+2026-04-16T10:17:50.206927+0530 | INFO | Fetching live data from external APIs
+2026-04-16T10:17:50.900627+0530 | INFO | Weather API data fetched successfully
+2026-04-16T10:17:50.931525+0530 | INFO | Finance API data fetched successfully
+2026-04-16T10:17:50.999187+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T10:17:51.006795+0530 | INFO | Data stored successfully in database
+2026-04-16T10:17:51.006955+0530 | INFO | Anomaly detection task triggered
+2026-04-16T10:17:51.007471+0530 | WARNING | High temperature: 33.2 (threshold: 30.0)
+2026-04-16T10:17:51.007620+0530 | WARNING | Anomaly detected: High temperature: 33.2 (threshold: 30.0)
+2026-04-16T10:17:51.011940+0530 | ERROR | API failed: API failure
+2026-04-16T10:17:51.012028+0530 | ERROR | API failed: API failure
+2026-04-16T10:17:51.012084+0530 | ERROR | API failed: API failure
+2026-04-16T10:17:51.012133+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:17:51.014251+0530 | INFO | Health endpoint called
+2026-04-16T10:17:51.016433+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:17:51.050173+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:17:51.052833+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:17:51.055159+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:17:51.057159+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:17:51.057954+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:17:51.058540+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:18.023250+0530 | INFO | Database tables created successfully
+2026-04-16T10:21:18.035867+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:21:18.037938+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:21:18.054129+0530 | ERROR | API failed: API failure
+2026-04-16T10:21:18.054208+0530 | ERROR | API failed: API failure
+2026-04-16T10:21:18.054241+0530 | ERROR | API failed: API failure
+2026-04-16T10:21:18.054279+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:18.055507+0530 | INFO | Health endpoint called
+2026-04-16T10:21:18.056938+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:21:18.067720+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:21:18.070240+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:21:18.072775+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:21:18.074528+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:18.075109+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:18.075619+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:37.537701+0530 | INFO | Database tables created successfully
+2026-04-16T10:21:37.549243+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:21:37.551250+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:21:37.569190+0530 | ERROR | API failed: API failure
+2026-04-16T10:21:37.569290+0530 | ERROR | API failed: API failure
+2026-04-16T10:21:37.569332+0530 | ERROR | API failed: API failure
+2026-04-16T10:21:37.569361+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:37.570628+0530 | INFO | Health endpoint called
+2026-04-16T10:21:37.571927+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:21:37.582794+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:21:37.585345+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:21:37.587945+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:21:37.589921+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:37.590479+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:21:37.591091+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:23:12.947195+0530 | INFO | Database tables created successfully
+2026-04-16T10:23:12.961603+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:23:12.963576+0530 | INFO | Fetching live data from external APIs
+2026-04-16T10:23:13.630216+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T10:23:13.707993+0530 | INFO | Weather API data fetched successfully
+2026-04-16T10:23:13.735718+0530 | INFO | Finance API data fetched successfully
+2026-04-16T10:23:13.743366+0530 | INFO | Data stored successfully in database
+2026-04-16T10:23:13.743453+0530 | INFO | Anomaly detection task triggered
+2026-04-16T10:23:13.743758+0530 | WARNING | High temperature: 33.2 (threshold: 30.0)
+2026-04-16T10:23:13.743814+0530 | WARNING | Anomaly detected: High temperature: 33.2 (threshold: 30.0)
+2026-04-16T10:23:13.747068+0530 | ERROR | API failed: API failure
+2026-04-16T10:23:13.747137+0530 | ERROR | API failed: API failure
+2026-04-16T10:23:13.747177+0530 | ERROR | API failed: API failure
+2026-04-16T10:23:13.747212+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:23:13.749165+0530 | INFO | Health endpoint called
+2026-04-16T10:23:13.750959+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:23:13.777887+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:23:13.780602+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:23:13.783161+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:23:13.784764+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:23:13.785353+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:23:13.786003+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T10:33:58.013562+0530 | INFO | Database tables created successfully
+2026-04-16T10:34:03.453563+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:34:03.467674+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:34:03.471109+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:34:03.473909+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:34:03.673012+0530 | INFO | Export endpoint called
+2026-04-16T10:34:12.639730+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:34:12.644315+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:34:12.649199+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:34:12.652982+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:34:12.656621+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:34:12.713452+0530 | INFO | Export endpoint called
+2026-04-16T10:38:41.926732+0530 | INFO | Database tables created successfully
+2026-04-16T10:38:50.213639+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:38:50.230551+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:38:50.233886+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:38:50.236905+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:38:50.285429+0530 | INFO | Export endpoint called
+2026-04-16T10:39:28.768745+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:39:28.770985+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:39:28.773581+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:39:28.775751+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:39:28.777643+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:39:28.820857+0530 | INFO | Export endpoint called
+2026-04-16T10:39:41.751319+0530 | INFO | Database tables created successfully
+2026-04-16T10:39:41.753884+0530 | INFO | Database tables created successfully
+2026-04-16T10:39:42.122571+0530 | INFO | Database tables created successfully
+2026-04-16T10:40:04.341336+0530 | INFO | Database tables created successfully
+2026-04-16T10:40:07.801703+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:40:07.819957+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:40:07.823377+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:40:07.827268+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:40:08.000858+0530 | INFO | Export endpoint called
+2026-04-16T10:42:05.639493+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:42:06.579736+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:44:52.835060+0530 | INFO | Database tables created successfully
+2026-04-16T10:45:05.509192+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:45:05.526503+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:45:05.529534+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:45:05.532535+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:45:05.581246+0530 | INFO | Export endpoint called
+2026-04-16T10:45:17.445892+0530 | WARNING | Unauthorized access attempt
+2026-04-16T10:45:42.499236+0530 | INFO | Database tables created successfully
+2026-04-16T10:45:48.117849+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:45:48.133715+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:45:48.136997+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:45:48.139942+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:45:48.185967+0530 | INFO | Export endpoint called
+2026-04-16T10:47:21.715686+0530 | INFO | Fetching live data from external APIs
+2026-04-16T10:47:22.484954+0530 | INFO | Weather API data fetched successfully
+2026-04-16T10:47:22.510051+0530 | INFO | Finance API data fetched successfully
+2026-04-16T10:47:22.574826+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T10:47:22.581004+0530 | INFO | Data stored successfully in database
+2026-04-16T10:47:22.581088+0530 | INFO | Anomaly detection task triggered
+2026-04-16T10:47:22.581728+0530 | WARNING | High temperature: 34.2 (threshold: 30.0)
+2026-04-16T10:47:22.581790+0530 | WARNING | Anomaly detected: High temperature: 34.2 (threshold: 30.0)
+2026-04-16T10:47:22.583947+0530 | INFO | Fetching weather data from DB
+2026-04-16T10:47:22.586245+0530 | INFO | Fetching finance data from DB
+2026-04-16T10:47:22.588316+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T10:47:22.590118+0530 | INFO | Fetching anomalies from database
+2026-04-16T10:47:22.635324+0530 | INFO | Export endpoint called
+2026-04-16T11:22:37.262852+0530 | INFO | Fetching live data from external APIs
+2026-04-16T11:22:37.992911+0530 | INFO | Weather API data fetched successfully
+2026-04-16T11:22:38.089837+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T11:22:38.091191+0530 | INFO | Finance API data fetched successfully
+2026-04-16T11:22:38.094482+0530 | INFO | Data stored successfully in database
+2026-04-16T11:22:38.094558+0530 | INFO | Anomaly detection task triggered
+2026-04-16T11:22:38.095057+0530 | WARNING | High temperature: 35.1 (threshold: 30.0)
+2026-04-16T11:22:38.095127+0530 | WARNING | Anomaly detected: High temperature: 35.1 (threshold: 30.0)
+2026-04-16T11:22:38.096654+0530 | INFO | Fetching weather data from DB
+2026-04-16T11:22:38.098603+0530 | INFO | Fetching finance data from DB
+2026-04-16T11:22:38.100759+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T11:22:38.102392+0530 | INFO | Fetching anomalies from database
+2026-04-16T11:22:38.141319+0530 | INFO | Export endpoint called
+2026-04-16T11:47:16.647649+0530 | INFO | Database tables created successfully
+2026-04-16T11:47:24.386783+0530 | INFO | Database tables created successfully
+2026-04-16T11:47:24.400762+0530 | WARNING | Unauthorized access attempt
+2026-04-16T11:47:24.402582+0530 | INFO | Fetching live data from external APIs
+2026-04-16T11:47:24.986109+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T11:47:25.162159+0530 | INFO | Weather API data fetched successfully
+2026-04-16T11:47:25.164407+0530 | INFO | Finance API data fetched successfully
+2026-04-16T11:47:25.172181+0530 | INFO | Data stored successfully in database
+2026-04-16T11:47:25.172276+0530 | INFO | Anomaly detection task triggered
+2026-04-16T11:47:25.172600+0530 | WARNING | High temperature: 35.8 (threshold: 30.0)
+2026-04-16T11:47:25.172653+0530 | WARNING | Anomaly detected: High temperature: 35.8 (threshold: 30.0)
+2026-04-16T11:47:25.176143+0530 | ERROR | API failed: API failure
+2026-04-16T11:47:25.176220+0530 | ERROR | API failed: API failure
+2026-04-16T11:47:25.176263+0530 | ERROR | API failed: API failure
+2026-04-16T11:47:25.176300+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T11:47:25.177760+0530 | INFO | Health endpoint called
+2026-04-16T11:47:25.179270+0530 | INFO | Fetching weather data from DB
+2026-04-16T11:47:25.195510+0530 | INFO | Fetching finance data from DB
+2026-04-16T11:47:25.199184+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T11:47:25.215396+0530 | INFO | Fetching anomalies from database
+2026-04-16T11:47:25.217069+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T11:47:25.217711+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T11:47:25.218246+0530 | ERROR | Circuit breaker active - skipping API call
+2026-04-16T11:47:34.341801+0530 | INFO | Fetching weather data from DB
+2026-04-16T11:47:34.353917+0530 | INFO | Fetching finance data from DB
+2026-04-16T11:47:34.357484+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T11:47:34.360460+0530 | INFO | Fetching anomalies from database
+2026-04-16T11:47:34.407358+0530 | INFO | Export endpoint called
+2026-04-16T11:52:22.356001+0530 | INFO | Fetching live data from external APIs
+2026-04-16T11:52:23.068223+0530 | INFO | Earthquake API data fetched successfully
+2026-04-16T11:52:23.071828+0530 | INFO | Weather API data fetched successfully
+2026-04-16T11:52:23.078103+0530 | INFO | Finance API data fetched successfully
+2026-04-16T11:52:23.084318+0530 | INFO | Data stored successfully in database
+2026-04-16T11:52:23.084398+0530 | INFO | Anomaly detection task triggered
+2026-04-16T11:52:23.084866+0530 | WARNING | High temperature: 35.8 (threshold: 30.0)
+2026-04-16T11:52:23.084922+0530 | WARNING | Anomaly detected: High temperature: 35.8 (threshold: 30.0)
+2026-04-16T11:52:23.086997+0530 | INFO | Fetching weather data from DB
+2026-04-16T11:52:23.089040+0530 | INFO | Fetching finance data from DB
+2026-04-16T11:52:23.090904+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T11:52:23.092785+0530 | INFO | Fetching anomalies from database
+2026-04-16T11:52:23.135530+0530 | INFO | Export endpoint called
+2026-04-16T11:52:38.605497+0530 | INFO | Fetching weather data from DB
+2026-04-16T11:52:38.608247+0530 | INFO | Fetching finance data from DB
+2026-04-16T11:52:38.610890+0530 | INFO | Fetching earthquake data from DB
+2026-04-16T11:52:38.613528+0530 | INFO | Fetching anomalies from database
+2026-04-16T11:52:38.669131+0530 | INFO | Export endpoint called
