@@ -64,10 +64,7 @@ def health():
     logger.info("Health endpoint called")
     return {"status": "running"}
 
-
-# =========================================================
-# 🔐 SECURED ENDPOINT (FIXED DECORATOR IMPLEMENTATION)
-# =========================================================
+# decorator implementation 
 @app.get("/api/fetch-live")
 @require_api_key
 async def fetch_live(
